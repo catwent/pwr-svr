@@ -49,8 +49,8 @@ img {
 
 .hover-text {
 	position: fixed;
-	top: 0;
-	left: 0;
+	top: 3vw;
+	left: 3vw;
 	width: 93vw;
 	height: 100vh;
 	padding: 2vw;
