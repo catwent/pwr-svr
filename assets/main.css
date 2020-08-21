@@ -57,7 +57,7 @@ img {
 	font-size: 10vw;
 	line-height: 1.2em;
 	letter-spacing: -0.1rem;
-	mix-blend-mode: exclusion;
+	mix-blend-mode: luminosity;
 	/* z-index: 999;
 	display: none; */
 }
