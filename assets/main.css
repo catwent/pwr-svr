@@ -41,7 +41,7 @@ img {
   max-height: 100%;
 }
 .about{
-	font-size: 5vw;
+	font-size: 3vw;
 	text-align: center;
 	margin-top: 60%;
 	/* Find a better way to vertically align - making the text a span? */
