@@ -1,0 +1,90 @@
+/* Put your CSS here! */
+@font-face {
+	font-family: Victor-Serif-Light;
+	src: url(fonts/VictorSerifTrial-Light.otf);
+}
+
+@font-face {
+	font-family: TimesNow-ExtraLight;
+	src: url(fonts/Times Now ExtraLight.otf);
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+	padding: 2vw;
+	font-family: Arial Narrow, serif;
+	/*
+	I like Garamond, times now extra light
+	Others can be found at https://www.cssfontstack.com/
+	Also try Wremena, JJannon, Millionaire,
+	Reckless Neue, Sainte Colombe, SangBleu, Walbaum
+	*/
+}
+
+.grid-row {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: flex-start; */
+}
+
+.grid-item {
+  flex-basis: 20%;
+  -ms-flex: auto;
+  position: relative;
+  padding: 3vw;
+  box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+  max-height: 100%;
+}
+.about{
+	font-size: 5vw;
+	text-align: center;
+	margin-top: 60%;
+	/* Find a better way to vertically align - making the text a span? */
+}
+
+.hover-text {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 93vw;
+	height: 100vh;
+	padding: 2vw;
+	font-size: 10vw;
+	line-height: 1.3em;
+	letter-spacing: -0.1rem;
+	mix-blend-mode: hard-light;
+	/* z-index: 999;
+	display: none; */
+}
+
+.grid-item:hover + .hover-text {
+  display: block;
+}
+
+@media(max-width: 1600px) {
+  .grid-item {
+    flex-basis: 25%;
+  }
+}
+
+@media(max-width: 1073px) {
+   .grid-item {
+    flex-basis: 33.33%;
+  }
+}
+
+@media(max-width: 815px) {
+  .grid-item {
+    flex-basis: 50%;
+  }
+}
+
+@media(max-width: 620px) {
+	.grid-item {
+		flex-basis: 100%;
+	}
