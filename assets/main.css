@@ -39,11 +39,7 @@ img {
   max-height: 100%;
 }
 .about{
-<<<<<<< Updated upstream
-	font-size: 5vw;
-=======
 	font-size: 4vw;
->>>>>>> Stashed changes
 	text-align: center;
 	margin-top: 70%;
 	filter: blur(5px);
@@ -57,18 +53,11 @@ img {
 	width: 93vw;
 	height: 100vh;
 	padding: 2vw;
-<<<<<<< Updated upstream
-	font-size: 10vw;
-	line-height: 1.3em;
-	letter-spacing: -0.1rem;
-	mix-blend-mode: hard-light;
-=======
 	font-size: 18vw;
 	line-height: 1.1em;
 	letter-spacing: ;
 	mix-blend-mode: exclusion;
 	filter: blur(12px);
->>>>>>> Stashed changes
 	/* z-index: 999;
 	display: none; */
 }
